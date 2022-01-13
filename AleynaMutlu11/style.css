@@ -1,0 +1,65 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.header{
+    min-height: 100vh;
+    width: 100vw;
+    background-repeat: no-repeat;
+    background-color: #379697;
+    background-position: inherit;
+    background-size: cover;
+    position: relative;
+   }
+   .header div img{
+       width: 100vw;
+       height: 750px;
+       object-fit: cover;
+   }
+   .header div{
+       display: flex;
+       justify-content: center;
+}
+    #uclufoto img{
+        width: 35vw;
+        height: 400px;
+        object-fit: top;
+    }
+    #uclufoto {
+        display: flex;
+        justify-content: space-around;
+        border: black;
+    }
+   nav{
+       width: 100%;
+       display: flex;
+       flex-direction: row;
+       padding: 2% 6px;
+       justify-content: space-between;
+       align-items: center;
+     
+
+   }
+   nav img{
+       width: 150px;
+
+   }
+   .nav-links{
+       flex: 1;
+       text-align: right;
+      
+   }
+   .nav-links ul{
+       display: flex;
+       justify-content: flex-end;
+       list-style: none;
+   }
+      .nav-links ul li a{
+
+    display: inline-block;
+    padding: 8px 12px;
+    position: relative;
+    text-decoration: none;
+    color:beige ;
+    font-family: 'Luxurious Roman', cursive;
+   }
